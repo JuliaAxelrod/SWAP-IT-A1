@@ -1,0 +1,29 @@
+{
+  "name": "james-nemecek-service",
+  "version": "0.0.01",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.2.0",
+    "cf-deployment-tracker-client": "*",
+    "commander": "^2.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.14.1",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.18.1",
+    "latest": "^0.2.0",
+    "snowpack": "^3.8.8",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesnem/sit725-2021-t3-prac3.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
